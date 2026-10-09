@@ -8,6 +8,10 @@ A Windows 11 Widgets board widget that shows RAM in use and checks that the GPU/
 
 It refreshes every 3 seconds while the Widgets board is open and does nothing while it's closed.
 
+## Why
+
+I had claude generate this because I use an intel based Dell pc for work against my better judgement. It is neat that I can assign the amount of VRAM to the NPU/GPU side of things given that windows 11 uses a stick of ram to remember where your cursor is. What is not so neat is that when you update the system it seems to forget that you asked it to limit the vram to a certain number and restores it back to the 8GB Dell/Intel thinks you want. So I had this made to notify me if that number changed so I don't need to wait until my computer is fully booted to find out that I need to adjust that setting a reboot. Hopefully this can help you out - feel free to make changes or expand the capability!
+
 ## Settings
 
 On the widget, click **...** → **Customize widget** to set the GB target (0.25–256 GB, decimals allowed). The settings card also shows the current limit as a percentage of RAM, and what percentage your target works out to. Each pinned widget keeps its own target; the Widgets board saves it as the widget's custom state, so it survives restarts and updates.
