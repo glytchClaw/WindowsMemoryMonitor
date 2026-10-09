@@ -10,7 +10,7 @@ It refreshes every 3 seconds while the Widgets board is open and does nothing wh
 
 ## Why
 
-I had claude generate this because I use an intel based Dell pc for work against my better judgement. It is neat that I can assign the amount of VRAM to the NPU/GPU side of things given that windows 11 uses a stick of ram to remember where your cursor is. What is not so neat is that when you update the system it seems to forget that you asked it to limit the vram to a certain number and restores it back to the 8GB Dell/Intel thinks you want. So I had this made to notify me if that number changed so I don't need to wait until my computer is fully booted to find out that I need to adjust that setting a reboot. Hopefully this can help you out - feel free to make changes or expand the capability!
+I had claude generate this because I use an intel based Dell pc for work against my better judgement. It is neat that I can assign the amount of VRAM to the NPU/GPU side of things given that windows 11 uses a stick of ram to remember where your cursor is. What is not so neat is that when you update the system it seems to forget that you asked it to limit the vram to a certain number and restores it back to the 8GB Dell/Intel thinks you want. So I had this made to notify me if that number changed so I don't need to wait until my computer is fully booted to find out that I need to adjust that setting and reboot. Hopefully this can help you out - feel free to make changes or expand the capability!
 
 ## Settings
 
